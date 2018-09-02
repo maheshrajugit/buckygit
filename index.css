@@ -1,0 +1,198 @@
+/*@media only screen and (max-width :732px)
+{*/
+	body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	background-color:  #52a6df;
+}
+	.main
+	{
+
+		background-color: #f2f2f2;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}	
+
+	.logo
+	{ 
+		
+		background-image: url("./img/background.png") ;
+		background-size: cover;
+		flex-grow: 1;
+	}
+	.idyalogo
+	{	margin:auto;
+		justify-content: center;
+		/*position: absolute;*/
+		/*width: 100%;*/
+		
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	.idyalogo img
+	{	justify-content: center;
+		/*justify-content: center;*/
+		/*border:1px solid red;*/
+		width: 105px;
+
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 3rem;
+
+		/*margin-top: 5rem;*/
+
+	}
+
+	h1
+	{
+		margin:0.5rem 0;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: 'Poppins', sans-serif;
+		color:#1b1b21;
+
+
+	}
+	
+	.form-info
+	
+	{	/*border:8px solid #3a3a3c;*/
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		flex-grow: 0;
+		border-radius: 5px 5px 0 0;
+		padding:0.5rem;
+		background-color: #52a6df;
+		
+	}
+	.form-box
+	{	
+		background-color:#52a6df;;
+		border-radius: 5px ;
+		flex-grow: 0;
+	}
+
+	.form-input
+	{ 	padding: 1rem;
+		border-radius: 5px 5px 5px 5px;
+		background-color: #f2f2f2;
+
+	}
+	.form-button
+	{	
+		background-color: #27ae60;
+		font-family: 'Poppins', sans-serif;
+		padding: 1rem ;
+		border-radius: 24px;
+		text-align: center;
+		color: #fff;
+		border:none;
+		font-size: 1rem;	
+		margin: 1rem;
+
+	}
+
+		
+
+	
+	
+	.form-input  input 
+
+	{	
+		display: flex;
+		flex-direction: column;
+		margin:1rem;
+		font-size: 24px;
+		border:none;
+
+	}
+
+
+
+	.form-input p
+	
+	{
+		padding: 0 50px;
+		text-align: center;
+		color:#95989A;
+
+	}
+	.form-logo
+
+	{	background-color: #fff;
+		box-shadow: 0 3px 6px grey;
+		margin:  1rem 0;
+		border-radius: 24px;
+		display: flex;
+		
+		overflow: hidden;
+	}
+	
+	
+	.formlogo1
+	{
+		padding: 1rem;
+		padding-top: 1.25rem;
+	}
+	.formlogo1 >img
+
+	{	
+		width: 24px;
+	}
+	
+	.footer{
+
+		display: flex;
+		flex-shrink: 1;
+		padding: 1rem;
+		color: #f2f2f2;
+		font-size: 0.85rem;
+		justify-content: space-around;
+		font-family: sans-serif;
+		background-color: #52a6df;
+		border-radius: 0 0 5px 5px;
+
+		
+
+	}
+	
+	.form-help
+	{	margin: 0;
+		font-size:1rem;
+		color:grey;
+		font-weight: bold;
+	}
+
+	.form-help a
+	{
+		text-decoration: none;
+		color: grey;
+
+	}
+	.text-help
+	{
+		padding: 1rem;
+		margin: 0;
+		color: grey;
+	}
+	
+
+
+
+	
+
+@media only screen and (max-width: 324px)
+	{
+
+	.idyalogo img
+	
+	{
+		padding-top: 0px;
+	}
+
+	}
