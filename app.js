@@ -1,6 +1,4 @@
-var path = require('path');
-var websiteHome = "OneDrive/Documents/GitHub/buckygit/index.html";
-var websiteAbout = "OneDrive/Documents/GitHub/buckygit/about.html";
+var fs = require('fs');
 
-console.log(path.normalize(websiteAbout));
-
+fs.writeFileSync("corn.txt","Corn is good, Corn is life");
+console.log(fs.readFileSync("corn.txt").toString());
