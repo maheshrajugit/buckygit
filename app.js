@@ -1,3 +1,4 @@
+var fs = require('fs');
 
-require('./emily');
-require('./bucky');
+fs.writeFileSync("corn.txt","Corn is good, Corn is life");
+console.log(fs.readFileSync("corn.txt").toString());
